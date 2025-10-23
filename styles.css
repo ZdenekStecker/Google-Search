@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 header{
     margin: 0,0,0,0;
@@ -10,25 +10,21 @@ header{
 }
 #pages{
     display: flex;
-    background-color: rgb(161, 159, 159);
+    background-color: rgb(255, 255, 255);
     top: 0;
     margin-top: 0rem;
     width: 100%;
     margin-left: 0rem;
-    
+   
     
 }
 .uplinks{
     text-decoration: none;
     color: black;
     text-align: center;
+    font-size: 2rem;
 }
-#googlelogo{
-    text-align: center;
-    margin-bottom: 0rem;
-    font-size: 5rem;
-    color: rgb(140, 114, 66);
-}
+
 #advenced{
     text-align: center;
     margin-top: 0rem;
@@ -36,9 +32,14 @@ header{
 }
 #adsearch{
     width: 50%;
+    font-size: 1.2rem;
     height: 30px;
     margin-top: 30px;
     border-radius: 7px;
+    background-color: rgb(118, 226, 55);
+}
+.adp{
+    font-size: 1.2rem;
 }
 
 .barse{
@@ -46,16 +47,27 @@ header{
     height: 20px;
     width: 50%;
 }
-
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 #submitse{
-    border-radius: 10px;
-    height: 25px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(118, 226, 55);
 }
 
 #searchsec{
-    padding-top: 6rem;
+    padding-top: 7rem;
     padding-bottom: 9rem;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+}
+.logocontainer{
+    text-align: center;
 }
 
 #search{
@@ -64,7 +76,8 @@ header{
 
 #navlibar{
     display: flex;
-    gap: 50%;
+    justify-content: end;
+    gap: 2rem;
     width: 100%;
     list-style-type: none;
     text-decoration: none;
