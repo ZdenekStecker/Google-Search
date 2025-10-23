@@ -1,0 +1,84 @@
+body{
+    background-color: gray;
+}
+header{
+    margin: 0,0,0,0;
+    left: 0;
+    width: 100%;
+    
+
+}
+#pages{
+    display: flex;
+    background-color: rgb(161, 159, 159);
+    top: 0;
+    margin-top: 0rem;
+    width: 100%;
+    margin-left: 0rem;
+    
+    
+}
+.uplinks{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#googlelogo{
+    text-align: center;
+    margin-bottom: 0rem;
+    font-size: 5rem;
+    color: rgb(140, 114, 66);
+}
+#advenced{
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+#adsearch{
+    width: 50%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.barse{
+    border-radius: 10px;
+    height: 20px;
+    width: 50%;
+}
+
+#submitse{
+    border-radius: 10px;
+    height: 25px;
+}
+
+#searchsec{
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+    background-color: aliceblue;
+}
+
+#search{
+    text-align: center;
+}
+
+#navlibar{
+    display: flex;
+    gap: 50%;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#movepage1{
+   text-decoration: none;
+   font-size: 1rem;
+   padding: 0.1rem;
+}
+
+#movepage2{
+   text-decoration: none;
+   align-self: end;
+   font-size: 1rem;
+   padding: 0.1rem;
+}

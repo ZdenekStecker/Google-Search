@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <header>
+            <nav id="pages">
+                <ul id="navlibar">
+                    <a href="imagesearch.html" class="uplinks"><li id="movepage1">image search</li></a>
+                    <a href="index.html" class="uplinks"><li id="movepage2">basic search</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <section id="searchsec">
+            <h1 id="googlelogo">Google</h1>
+            <h2 id="advenced">Advenced search</h2>
+        <form id="search" action="https://www.google.cz/advanced_search?hl=cs">
+            <p>všechna tato slova:</p>
+            <input type="text" name="as_q" class="barse">
+            <p>přesně toto slovo nebo sousloví:</p>
+            <input type="text" name="as_epq" class="barse">
+            <p>kterékoliv z těchto slov:</p>
+            <input type="text" name="as_oq" class="barse">
+            <p>žádné z těchto slov:</p>
+            <input type="text" name="as_eq" class="barse">
+            <input type="submit" value="Search" id="adsearch">
+        </form>
+        </section>
+        </main>
+    </body>
+</html>
