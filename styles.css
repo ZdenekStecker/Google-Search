@@ -24,7 +24,10 @@ header{
     text-align: center;
     font-size: 2rem;
 }
-
+#Feelinglink{
+    text-decoration: none;
+    color: black;
+}
 #advenced{
     text-align: center;
     margin-top: 0rem;
@@ -43,9 +46,10 @@ header{
 }
 
 .barse{
-    border-radius: 10px;
-    height: 20px;
+    border-radius: 15px;
+    height: 30px;
     width: 50%;
+    box-shadow: black 0px 0px 0px 2px;
 }
 .logo{
     font-family: Arial, Helvetica, sans-serif;
@@ -54,12 +58,25 @@ header{
     margin-bottom: 1rem;
 }
 #submitse{
-    border-radius: 15px;
     width: 100px;
     height: 30px;
-    background-color: rgb(118, 226, 55);
+    background-color: rgb(146, 148, 145);
 }
-
+#submitsead{
+    width: 150px;
+    height: 29.5px;
+    background-color: rgb(146, 148, 145);
+}
+#Feeling{
+    width: 100px;
+    height: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2.4px;
+    padding-bottom: 5.9px;
+    background-color: rgb(146, 148, 145);
+    box-shadow: black 0px 0px 0px 1.5px;
+}
 #searchsec{
     padding-top: 7rem;
     padding-bottom: 9rem;
@@ -69,9 +86,13 @@ header{
 .logocontainer{
     text-align: center;
 }
-
+#undersearch{
+    text-align: center;
+    margin-top: 20px;
+}
 #search{
     text-align: center;
+    align-items: center;
 }
 
 #navlibar{
