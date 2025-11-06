@@ -23,6 +23,7 @@ header{
     color: black;
     text-align: center;
     font-size: 2rem;
+    gap: 20px;
 }
 #Feelinglink{
     text-decoration: none;
@@ -95,10 +96,10 @@ header{
     align-items: center;
 }
 
-#navlibar{
+#pages{
     display: flex;
     justify-content: end;
-    gap: 2rem;
+    gap: 5rem;
     width: 100%;
     list-style-type: none;
     text-decoration: none;
